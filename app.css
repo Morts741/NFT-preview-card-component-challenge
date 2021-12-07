@@ -1,0 +1,153 @@
+:root {
+
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line:  hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+}
+
+body {
+    background-color: var(--main-bg);
+    font-family: Outfit, serif;
+    font-size: 18px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background-color: var(--card-bg);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.equil {
+    max-width: 87%;
+    margin: 1.5rem 1.5rem;
+    align-self: center;
+    border-radius: 1rem;
+    background-color: hsl(178, 100%, 50%);
+    opcaity: 50%;
+}
+
+/* .equil:hover {
+    cursor: pointer;
+    color:hsl(178, 100%, 50%)
+} */
+
+/* .overlay {
+    position: relative;
+    border: 1px solid red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: 300ms ease;
+    background-color: var(--cyan)
+} */
+/*
+.overlay:hover {
+    opcaity: .5;
+}
+
+.equil-icon {
+    color: var(--white);
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+h2 {
+    max-width: 87%;
+    color: var(--white);
+    margin-left: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title-link {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.title-link:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.description {
+    color: var(--soft-blue);
+    margin: 0 1rem 0 1.5rem;
+    font-weight: 300;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5rem 0 1.5rem;
+    border-bottom: solid var(--line) 1px;
+
+}
+
+.price {
+    color: var(--cyan);
+}
+
+.time {
+    color: var(--soft-blue);
+}
+
+.icon {
+    vertical-align: bottom;
+}
+
+.credit {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0 1.5rem 1.5rem;
+    color: var(--soft-blue);
+}
+
+.credit > p {
+    margin-left: 1rem;
+}
+
+.author {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.author:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.credit > img {
+    width: 2rem;
+    border: solid white 2px;
+    border-radius: 50%;
+}
+
+.attribution {
+    margin-top: 1rem;
+}
+
